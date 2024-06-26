@@ -17,7 +17,7 @@ export default function SectionTwoWidget() {
                 </div>
                 <div className="max-w-4xl mx-auto text-center mb-24 sm:mb-52">
                     <h2 className="font-heading text-5xl sm:text-6xl">
-                        Don’t take our word for it. Trust our stats
+                        Don&apos;t take our word for it. Trust our stats
                     </h2>
                 </div>
                 <div className="flex flex-wrap -mx-4 3xl:-mx-20 mb-36">
@@ -81,7 +81,7 @@ export default function SectionTwoWidget() {
                             <p className="max-w-lg font-light mb-6">
                                 “The only reason not to give 5 stars is the fact that I had to
                                 separately claim for the offered cash back deal, rather it being
-                                automatic, and this info wasn’t stated anywhere.”
+                                automatic, and this info wasn&apos;t stated anywhere.”
                             </p>
                             <svg
                                 width={107}
