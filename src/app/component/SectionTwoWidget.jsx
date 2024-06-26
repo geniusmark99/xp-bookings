@@ -26,7 +26,7 @@ export default function SectionTwoWidget() {
                             <p className="max-w-lg font-light mb-6">
                                 “A real nice tools and app. It comes with a few free plug-ins that
                                 will be more than enough for beginners. For more advansed users,
-                                you'll need to get a few more plug-ins for an extra cost on 3rd
+                                you&apos;ll need to get a few more plug-ins for an extra cost on 3rd
                                 party websites, but Wressa makes it quite easy to set them up.”
                             </p>
                             <svg
@@ -133,7 +133,7 @@ export default function SectionTwoWidget() {
                             <p className="max-w-lg font-light mb-6">
                                 “A real nice tools and app. It comes with a few free plug-ins that
                                 will be more than enough for beginners. For more advansed users,
-                                you'll need to get a few more plug-ins for an extra cost on 3rd
+                                you&apos;ll need to get a few more plug-ins for an extra cost on 3rd
                                 party websites, but Wressa makes it quite easy to set them up.”
                             </p>
                             <svg
