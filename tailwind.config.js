@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        ripple: {
+          '0%': { transform: 'scale(0)', opacity: '1' },
+          '100%': { transform: 'scale(4)', opacity: '0' },
+        },
+      },
+      animation: {
+        ripple: 'ripple 1.5s infinite',
+      },
       colors:{
         "black-2":"#101010",
         "xp-color":"#1F1923"

@@ -5,7 +5,21 @@ import Image from "next/image";
 export default function SectionTwoWidget() {
     return (
         <section className="relative pt-64 pb-40 bg-xp-color overflow-hidden">
-            <div className="absolute top-0 left-1/2">
+
+            <div className="absolute top-0 left-[40%] sm:left-1/2 flex flex-col justify-center items-center">
+
+                <button id='water-ripple' className='bg-rose-500 size-20 rounded-full text-white flex justify-center items-center flex-col'>
+
+                    <svg className="fill-current size-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                        <path d="M23.970703 3.9726562 A 2.0002 2.0002 0 0 0 22 6L22 22 A 2.0002 2.0002 0 1 0 26 22L26 6 A 2.0002 2.0002 0 0 0 23.970703 3.9726562 z M 17.03125 9.5957031 A 2.0002 2.0002 0 0 0 16.125 9.8105469C10.126881 12.732506 6 18.900262 6 26C6 35.917759 14.082241 44 24 44C33.917759 44 42 35.917759 42 26C42 18.900051 37.873521 12.733423 31.876953 9.8105469 A 2.0003292 2.0003292 0 1 0 30.123047 13.40625C34.782479 15.677373 38 20.447949 38 26C38 33.756241 31.756241 40 24 40C16.243759 40 10 33.756241 10 26C10 20.447738 13.215119 15.676291 17.875 13.40625 A 2.0002 2.0002 0 0 0 17.03125 9.5957031 z" />
+
+                    </svg>
+                    Start
+                </button>
+
+
+
+
                 <div className="w-px h-16 bg-rose-300" />
                 <div className="w-px h-24 bg-rose-500" />
             </div>

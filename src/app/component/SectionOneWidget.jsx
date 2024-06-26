@@ -101,6 +101,22 @@ export default function SectionOneWidget() {
             </nav>
             <div className="container mx-auto px-4 relative">
                 <div className="flex flex-wrap -mx-4 pt-20 justify-center items-center relative">
+                    <div className="xl:w-1/2 px-4 xl:order-first">
+                        <div className="block md:flex max-w-2xl lg:max-w-none mx-auto">
+
+                            <div>
+                                <Image
+                                    className="block mx-auto rounded-lg shadow-lg border-2 border-transparent  hover:border-rose-600"
+                                    width={500}
+                                    height={500}
+                                    src="/images/woman-side-header.png"
+                                    alt="Woman image"
+                                    style={{ width: "auto", height: "auto" }}
+                                    priority
+                                />
+                            </div>
+                        </div>
+                    </div>
                     <div className="xl:w-1/2 px-4 mb-16 lg:mb-0">
                         <div className="relative xl:-ml-40 max-w-md md:max-w-lg lg:max-w-xl mx-auto lg:py-12">
                             <h1 className="block font-heading text-6xl sm:text-8xl md:text-10xl font-bold text-white">
@@ -141,32 +157,7 @@ export default function SectionOneWidget() {
                             </div>
                         </div>
                     </div>
-                    <div className="xl:w-1/2 px-4 xl:order-first">
-                        <div className="block md:flex max-w-2xl lg:max-w-none mx-auto">
-                            <div className="flex flex-col justify-center mb-6 md:mb-0 md:mr-8 xl:mr-20">
-                                <button className="inline-block mb-6 text-sm font-bold text-rose-500">
-                                    01
-                                </button>
-                                <button className="inline-block mb-6 text-sm font-bold text-gray-400 hover:text-gray-200">
-                                    02
-                                </button>
-                                <button className="inline-block text-sm font-bold text-gray-400 hover:text-gray-200">
-                                    03
-                                </button>
-                            </div>
-                            <div>
-                                <Image
-                                    className="block mx-auto"
-                                    width={500}
-                                    height={500}
-                                    src="/images/woman-side-header.png"
-                                    alt="Woman image"
-                                    style={{ width: "auto", height: "auto" }}
-                                    priority
-                                />
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
