@@ -24,10 +24,8 @@ export default function SectionTwoWidget() {
                     <div className="w-full lg:w-1/2 px-4 3xl:px-20 mb-36 lg:mb-0">
                         <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 bg-black-2 rounded-md">
                             <p className="max-w-lg font-light mb-6">
-                                “A real nice tools and app. It comes with a few free plug-ins that
-                                will be more than enough for beginners. For more advansed users,
-                                you&apos;ll need to get a few more plug-ins for an extra cost on 3rd
-                                party websites, but Wressa makes it quite easy to set them up.”
+                                &quot;XP-Bookings made it so easy to find my perfect match! The site is user-friendly, and the community is amazing.
+                                I never thought I&apos;d find someone so compatible. Highly recommend!&quot;
                             </p>
                             <svg
                                 width={107}
@@ -79,9 +77,10 @@ export default function SectionTwoWidget() {
                     <div className="w-full lg:w-1/2 px-4 3xl:px-20 lg:-mt-24">
                         <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 mb-36 bg-black-2 rounded-md">
                             <p className="max-w-lg font-light mb-6">
-                                “The only reason not to give 5 stars is the fact that I had to
-                                separately claim for the offered cash back deal, rather it being
-                                automatic, and this info wasn&apos;t stated anywhere.”
+                                &quot;I was skeptical at first, but XP-Bookings exceeded my expectations.
+                                The detailed profiles and advanced matching system really helped me find someone who shares my interests and values.
+                                Thank you!&quot;
+
                             </p>
                             <svg
                                 width={107}
@@ -131,10 +130,9 @@ export default function SectionTwoWidget() {
                         </div>
                         <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 bg-black-2 rounded-md">
                             <p className="max-w-lg font-light mb-6">
-                                “A real nice tools and app. It comes with a few free plug-ins that
-                                will be more than enough for beginners. For more advansed users,
-                                you&apos;ll need to get a few more plug-ins for an extra cost on 3rd
-                                party websites, but Wressa makes it quite easy to set them up.”
+                                &quot;XP-Bookings is a game-changer! I found the love of my life here, and the experience wa
+                                s fantastic from start to finish. The support team was always there to help,
+                                making the whole process smooth and enjoyable.&quot;
                             </p>
                             <svg
                                 width={107}
