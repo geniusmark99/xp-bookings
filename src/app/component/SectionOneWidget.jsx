@@ -14,11 +14,11 @@ export default function SectionOneWidget() {
 
     return (
         <section className="pb-12 md:pb-24 lg:pb-32 bg-xp-color">
-            <nav className="relative px-6 lg:px-16 py-9">
+            <nav className="relative px-4 lg:px-16 py-9">
                 <div className="flex items-center">
                     <a className="inline-block text-lg font-bold" href="#">
                         <Image
-                            className="h-10"
+                            className="size-4 md:size-10"
                             src="./xp-logo.svg"
                             alt="XP-bookings Logo"
                             width={200}
