@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function SectionTwoWidget() {
     return (
-        <section className="relative pt-64 pb-40 bg-black overflow-hidden">
+        <section className="relative pt-64 pb-40 bg-xp-color overflow-hidden">
             <div className="absolute top-0 left-1/2">
                 <div className="w-px h-16 bg-rose-300" />
                 <div className="w-px h-24 bg-rose-500" />
@@ -54,15 +54,19 @@ export default function SectionTwoWidget() {
                             </svg>
                             <div className="absolute bottom-0 left-0 ml-8 sm:ml-14 -mb-16">
                                 <div className="flex-shrink-0 relative max-w-max mb-4">
-                                    <img
-                                        className="w-12 h-12 rounded-full object-cover"
-                                        src="https://shuffle.dev/wrexa-assets/images/avatar-women1.png"
-                                        alt=""
+                                    <Image
+                                        className="size-12 rounded-full object-cover"
+                                        src="/images/avatar-women1.png"
+                                        alt="XP IMAGES"
+                                        width={500}
+                                        height={500}
                                     />
-                                    <img
-                                        className="absolute bottom-0 right-0 -mb-1 -mr-1"
-                                        src="https://shuffle.dev/wrexa-assets/elements/spotify-logo-small-icon.svg"
-                                        alt=""
+                                    <Image
+                                        className="absolute size-4 bottom-0 right-0 -mb-1 -mr-1"
+                                        src="/images/spotify-logo-small-icon.svg"
+                                        alt="XP IMAGES"
+                                        width={500}
+                                        height={500}
                                     />
                                 </div>
                                 <div className="flex items-center">
@@ -104,15 +108,19 @@ export default function SectionTwoWidget() {
                             </svg>
                             <div className="absolute bottom-0 left-0 ml-8 sm:ml-14 -mb-16">
                                 <div className="flex-shrink-0 relative max-w-max mb-4">
-                                    <img
-                                        className="w-12 h-12 rounded-full object-cover"
-                                        src="https://shuffle.dev/wrexa-assets/images/avatar-women2.png"
-                                        alt=""
+                                    <Image
+                                        className="size-12 rounded-full object-cover"
+                                        src="/images/avatar-women2.png"
+                                        width={500}
+                                        height={500}
+                                        alt="XP IMAGES"
                                     />
-                                    <img
-                                        className="absolute bottom-0 right-0 -mb-1 -mr-1"
-                                        src="https://shuffle.dev/wrexa-assets/elements/miro-logo-small-icon.svg"
-                                        alt=""
+                                    <Image
+                                        className="absolute size-4 bottom-0 right-0 -mb-1 -mr-1"
+                                        src="/images/spotify-logo-small-icon.svg"
+                                        width={500}
+                                        height={500}
+                                        alt="XP IMAGES"
                                     />
                                 </div>
                                 <div className="flex items-center">
@@ -153,15 +161,19 @@ export default function SectionTwoWidget() {
                             </svg>
                             <div className="absolute bottom-0 left-0 ml-8 sm:ml-14 -mb-16">
                                 <div className="flex-shrink-0 relative max-w-max mb-4">
-                                    <img
-                                        className="w-12 h-12 rounded-full object-cover"
-                                        src="https://shuffle.dev/wrexa-assets/images/avatar-women1.png"
-                                        alt=""
+                                    <Image
+                                        className="size-12 rounded-full object-cover"
+                                        src="/images/avatar-women1.png"
+                                        width={500}
+                                        height={500}
+                                        alt="XP IMAGE"
                                     />
-                                    <img
-                                        className="absolute bottom-0 right-0 -mb-1 -mr-1"
-                                        src="https://shuffle.dev/wrexa-assets/elements/miro-logo-small-icon.svg"
-                                        alt=""
+                                    <Image
+                                        className="absolute size-4 bottom-0 right-0 -mb-1 -mr-1"
+                                        src="/images/miro-logo-small-icon.svg"
+                                        width={500}
+                                        height={500}
+                                        alt="XP IMAGE"
                                     />
                                 </div>
                                 <div className="flex items-center">

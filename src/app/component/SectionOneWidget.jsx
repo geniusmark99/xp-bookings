@@ -6,7 +6,7 @@ import MobileSidebar from './MobileSidebar';
 export default function SectionOneWidget() {
 
     return (
-        <section className="pb-12 md:pb-24 lg:pb-32 bg-black">
+        <section className="pb-12 md:pb-24 lg:pb-32 bg-xp-color">
             <nav className="relative px-6 lg:px-16 py-9">
                 <div className="flex items-center">
                     <a className="inline-block text-lg font-bold" href="#">
@@ -16,6 +16,7 @@ export default function SectionOneWidget() {
                             alt="XP-bookings Logo"
                             width={200}
                             height={200}
+                            style={{ width: "auto", height: "auto" }}
 
                         />
                     </a>
@@ -87,11 +88,11 @@ export default function SectionOneWidget() {
                     <div className="hidden lg:block">
                         <div className="inline-flex items-center gap-x-2">
 
-                            <a href="#" className="py-2 px-3 border-2 border-rose-500 bg-black hover:bg-rose-400 rounded-full">
+                            <a href="#" className="py-2 px-3 border-2 border-rose-500 bg-xp-color hover:bg-rose-400 rounded-full">
                                 <span className="text-sm font-bold">Sign in</span>
                             </a>
 
-                            <a href="#" className="py-2 px-3 border-2 border-black hover:text-rose-500 hover:border-rose-500 rounded-full">
+                            <a href="#" className="py-2 px-3 border-2 border-xp-color hover:text-rose-500 hover:border-rose-500 rounded-full">
                                 <span className="text-sm font-bold">Sign up</span>
                             </a>
                         </div>
@@ -154,10 +155,14 @@ export default function SectionOneWidget() {
                                 </button>
                             </div>
                             <div>
-                                <img
+                                <Image
                                     className="block mx-auto"
-                                    src="https://shuffle.dev/vendia-assets/images/header/woman-side-header.png"
-                                    alt=""
+                                    width={500}
+                                    height={500}
+                                    src="/images/woman-side-header.png"
+                                    alt="Woman image"
+                                    style={{ width: "auto", height: "auto" }}
+                                    priority
                                 />
                             </div>
                         </div>
@@ -169,12 +174,7 @@ export default function SectionOneWidget() {
                 <nav className="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
                     <div className="flex items-center mb-8">
                         <a className="mr-auto text-2xl font-medium leading-none" href="#">
-                            <img
-                                className="h-6"
-                                src="https://shuffle.dev/vendia-assets/logos/vendia-dark.svg"
-                                alt=""
-                                width="auto"
-                            />
+
                         </a>
                         <button className="navbar-close">
                             <svg

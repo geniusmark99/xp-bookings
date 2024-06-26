@@ -11,6 +11,7 @@ export default function FooterWidget() {
                             <Image
                                 className="h-8"
                                 src="./xp-logo.svg"
+                                style={{ width: "auto", height: "auto" }}
                                 alt="Xp bookings logo"
                                 width={200}
                                 height={200}
@@ -19,33 +20,46 @@ export default function FooterWidget() {
 
                         <div>
                             <a className="mr-8 inline-block h-6" href="#">
-                                <img
-                                    className="mx-auto"
-                                    src="https://shuffle.dev/plain-assets/socials/facebook.svg"
+                                <Image
+                                    className="mx-auto size-5"
+                                    width={100}
+                                    height={100}
+                                    alt="Facebook Icons"
+                                    style={{ width: "auto", height: "auto" }}
+                                    src="/images/facebook.svg"
+
+                                />
+                            </a>
+
+                            <a className="mr-8 inline-block h-6" href="#">
+                                <Image
+                                    className="mx-auto size-5"
+                                    width={100}
+                                    height={100}
+                                    alt="Instagram Icons"
+                                    style={{ width: "auto", height: "auto" }}
+                                    src="/images/instagram.svg"
                                 />
                             </a>
                             <a className="mr-8 inline-block h-6" href="#">
-                                <img
-                                    className="mx-auto"
-                                    src="https://shuffle.dev/plain-assets/socials/github.svg"
-                                />
-                            </a>
-                            <a className="mr-8 inline-block h-6" href="#">
-                                <img
-                                    className="mx-auto"
-                                    src="https://shuffle.dev/plain-assets/socials/instagram.svg"
-                                />
-                            </a>
-                            <a className="mr-8 inline-block h-6" href="#">
-                                <img
-                                    className="mx-auto"
-                                    src="https://shuffle.dev/plain-assets/socials/linkedin.svg"
+                                <Image
+                                    className="mx-auto size-5"
+                                    width={100}
+                                    height={100}
+                                    alt="Linkedln Icons"
+                                    style={{ width: "auto", height: "auto" }}
+                                    src="/images/linkedin.svg"
+
                                 />
                             </a>
                             <a className="inline-block h-6" href="#">
-                                <img
+                                <Image
                                     className="mx-auto"
-                                    src="https://shuffle.dev/plain-assets/socials/twitter.svg"
+                                    width={100}
+                                    height={100}
+                                    alt="Twitter Icons"
+                                    style={{ width: "auto", height: "auto" }}
+                                    src="/images/twitter.svg"
                                 />
                             </a>
                         </div>
