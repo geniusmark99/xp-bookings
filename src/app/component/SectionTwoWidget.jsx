@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function SectionTwoWidget() {
     return (
-        <section className="relative pt-64 pb-40 bg-xp-color overflow-hidden">
+        <section className="relative pt-64 pb-40 bg-white dark:bg-xp-color overflow-hidden">
 
             <div className="absolute top-0 left-[40%] sm:left-1/2 flex flex-col justify-center items-center">
 
@@ -24,9 +24,9 @@ export default function SectionTwoWidget() {
                 <div className="w-px h-24 bg-rose-500" />
             </div>
             <div className="container px-4 mx-auto">
-                <div className="flex items-center mb-18">
+                <div className="flex items-center mb-18 justify-center ">
                     <span className="font-heading text-xl"></span>
-                    <div className="mx-4 rounded-full bg-gray-200 h-1 w-1" />
+                    {/* <div className="mx-4 rounded-full bg-gray-200 h-1 w-1" /> */}
                     <span className="font-heading text-xl">Customer review</span>
                 </div>
                 <div className="max-w-4xl mx-auto text-center mb-24 sm:mb-52">
@@ -36,7 +36,7 @@ export default function SectionTwoWidget() {
                 </div>
                 <div className="flex flex-wrap -mx-4 3xl:-mx-20 mb-36">
                     <div className="w-full lg:w-1/2 px-4 3xl:px-20 mb-36 lg:mb-0">
-                        <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 bg-black-2 rounded-md">
+                        <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 bg-rose-600  dark:bg-black-2 rounded-md">
                             <p className="max-w-lg font-light mb-6">
                                 &quot;XP-Bookings made it so easy to find my perfect match! The site is user-friendly, and the community is amazing.
                                 I never thought I&apos;d find someone so compatible. Highly recommend!&quot;
@@ -45,7 +45,7 @@ export default function SectionTwoWidget() {
                                 width={107}
                                 height={18}
                                 viewBox="0 0 107 18"
-                                className='fill-gray-500'
+                                className='fill-white dark:fill-gray-500'
                                 xmlns="http://www.w3.org/2000/svg"
                             >
                                 <path
@@ -82,14 +82,16 @@ export default function SectionTwoWidget() {
                                     />
                                 </div>
                                 <div className="flex items-center">
-                                    <span className="text-lg font-medium mr-3">Saidy Blackstone</span>
-                                    <span className="text-gray-300">Spotify</span>
+
+
+                                    <span className="text-lg font-medium mr-3 text-xp-color dark:text-gray-300">Saidy Blackstone</span>
+                                    <span className="text-xp-color dark:text-gray-300">Spotify</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/2 px-4 3xl:px-20 lg:-mt-24">
-                        <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 mb-36 bg-black-2 rounded-md">
+                        <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 mb-36 bg-rose-600  dark:bg-black-2 rounded-md">
                             <p className="max-w-lg font-light mb-6">
                                 &quot;I was skeptical at first, but XP-Bookings exceeded my expectations.
                                 The detailed profiles and advanced matching system really helped me find someone who shares my interests and values.
@@ -100,7 +102,7 @@ export default function SectionTwoWidget() {
                                 width={107}
                                 height={18}
                                 viewBox="0 0 107 18"
-                                className='fill-gray-500'
+                                className='fill-white dark:fill-gray-500'
                                 xmlns="http://www.w3.org/2000/svg"
                             >
                                 <path
@@ -137,12 +139,13 @@ export default function SectionTwoWidget() {
                                     />
                                 </div>
                                 <div className="flex items-center">
-                                    <span className="text-lg font-medium mr-3">Helen Kruse</span>
-                                    <span className="text-gray-300">Miro</span>
+
+                                    <span className="text-lg font-medium mr-3 text-xp-color dark:text-gray-300">Helen Kruse</span>
+                                    <span className="text-xp-color dark:text-gray-300">Miro</span>
                                 </div>
                             </div>
                         </div>
-                        <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 bg-black-2 rounded-md">
+                        <div className="relative pt-14 pb-20 px-8 sm:pl-14 sm:pr-24 bg-rose-600  dark:bg-black-2 rounded-md">
                             <p className="max-w-lg font-light mb-6">
                                 &quot;XP-Bookings is a game-changer! I found the love of my life here, and the experience wa
                                 s fantastic from start to finish. The support team was always there to help,
@@ -152,7 +155,7 @@ export default function SectionTwoWidget() {
                                 width={107}
                                 height={18}
                                 viewBox="0 0 107 18"
-                                className='fill-gray-500'
+                                className='fill-white dark:fill-gray-500'
                                 xmlns="http://www.w3.org/2000/svg"
                             >
                                 <path
@@ -189,8 +192,8 @@ export default function SectionTwoWidget() {
                                     />
                                 </div>
                                 <div className="flex items-center">
-                                    <span className="text-lg font-medium mr-3">Saidy Blackstone</span>
-                                    <span className="text-gray-300">Spotify</span>
+                                    <span className="text-lg font-medium mr-3 text-xp-color dark:text-gray-300">Saidy Blackstone</span>
+                                    <span className="text-xp-color dark:text-gray-300">Spotify</span>
                                 </div>
                             </div>
                         </div>

@@ -4,9 +4,9 @@ import Image from 'next/image'
 export default function SectionThreeWidget() {
     return (
         <section>
-            <div className="skew skew-top mr-for-radius">
+            {/* <div className="skew skew-top mr-for-radius">
                 <svg
-                    className="h-8 md:h-12 lg:h-20 w-full text-xp-color"
+                    className="h-8 md:h-12 lg:h-20 w-full text-rose-500 dark:text-xp-color"
                     viewBox="0 0 10 10"
                     preserveAspectRatio="none"
                 >
@@ -15,14 +15,14 @@ export default function SectionThreeWidget() {
             </div>
             <div className="skew skew-top ml-for-radius">
                 <svg
-                    className="h-8 md:h-12 lg:h-20 w-full text-xp-color"
+                    className="h-8 md:h-12 lg:h-20 w-full text-rose-500 dark:text-xp-color"
                     viewBox="0 0 10 10"
                     preserveAspectRatio="none"
                 >
                     <polygon fill="currentColor" points="0 10 10 0 10 10" />
                 </svg>
-            </div>
-            <div className="py-20 bg-xp-color radius-for-skewed">
+            </div> */}
+            <div className="py-20 bg-rose-500 dark:bg-xp-color radius-for-skewed">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-wrap items-center -mx-4">
                         <div className="mb-12 lg:mb-0 w-full lg:w-1/2 flex px-4 lg:px-10">
@@ -98,9 +98,9 @@ export default function SectionThreeWidget() {
                     </div>
                 </div>
             </div>
-            <div className="skew skew-bottom mr-for-radius">
+            {/* <div className="skew skew-bottom mr-for-radius">
                 <svg
-                    className="h-8 md:h-12 lg:h-20 w-full text-xp-color"
+                    className="h-8 md:h-12 lg:h-20 w-full text-rose-500 dark:text-xp-color"
                     viewBox="0 0 10 10"
                     preserveAspectRatio="none"
                 >
@@ -109,13 +109,13 @@ export default function SectionThreeWidget() {
             </div>
             <div className="skew skew-bottom ml-for-radius">
                 <svg
-                    className="h-8 md:h-12 lg:h-20 w-full text-xp-color"
+                    className="h-8 md:h-12 lg:h-20 w-full text-rose-500 dark:text-xp-color"
                     viewBox="0 0 10 10"
                     preserveAspectRatio="none"
                 >
                     <polygon fill="currentColor" points="0 0 10 0 10 10" />
                 </svg>
-            </div>
+            </div> */}
         </section>
 
     )
