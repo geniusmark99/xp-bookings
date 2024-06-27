@@ -6,7 +6,30 @@ export default function SectionTwoWidget() {
     return (
         <section className="relative pt-64 pb-40 bg-white dark:bg-xp-color overflow-hidden">
 
-            <div className="absolute top-0 left-[40%] sm:left-1/2 flex flex-col justify-center items-center">
+            <div className='flex justify-center items-center'>
+
+                <div className='flex gap-x-2'>
+
+                    <a
+                        className="inline-block rounded border border-rose-600 bg-rose-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500"
+                    >
+                        Be a member
+                    </a>
+
+
+                    <a
+                        className="inline-block rounded border border-rose-600 bg-rose-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500"
+                    >
+                        Be a playmate
+                    </a>
+
+                </div>
+            </div>
+
+
+            {/* <div className="absolute top-0 left-[40%] sm:left-1/2 flex flex-col justify-center items-center">
+
+
 
                 <button id='water-ripple' className='bg-rose-500 size-20 rounded-full text-white flex justify-center items-center flex-col'>
 
@@ -22,7 +45,7 @@ export default function SectionTwoWidget() {
 
                 <div className="w-px h-16 bg-rose-300" />
                 <div className="w-px h-24 bg-rose-500" />
-            </div>
+            </div> */}
             <div className="container px-4 mx-auto">
                 <div className="flex items-center mb-18 justify-center ">
                     <span className="font-heading text-xl"></span>
