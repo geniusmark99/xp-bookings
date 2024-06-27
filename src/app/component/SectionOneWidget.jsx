@@ -106,7 +106,7 @@ export default function SectionOneWidget() {
                                 `}
                                 href="#"
                             >
-                                Find Sexy Lady
+                                Escorts
 
                                 <div className='relative'>
                                     <svg className='group-hover:rotate-45 transition-all size-3.5 fill-current' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
@@ -305,10 +305,9 @@ export default function SectionOneWidget() {
 
                                         <div className='group relative inline-block text-sm font-medium text-white focus:outline-none focus:ring'>
 
-                                            <span className="absolute inset-0 rounded-lg border-2 border-rose-600 group-active:border-red-500" />
 
                                             <Image
-                                                className="block mx-auto rounded-lg px-12 py-3 transition-transform  -translate-x-4  -translate-y-4"
+                                                className="block mx-auto rounded-lg px-12 py-3"
 
                                                 width={500}
                                                 height={500}
@@ -318,10 +317,13 @@ export default function SectionOneWidget() {
                                                 priority
                                             />
 
+                                            <div>
+                                                HAHDHSH
+                                            </div>
                                         </div>
 
 
-                                        <div className="absolute right-0 bottom-0 xl:-ml-40 max-w-md md:max-w-lg lg:max-w-xl mx-auto lg:py-12">
+                                        {/* <div className="absolute right-0 bottom-0 xl:-ml-40 max-w-md md:max-w-lg lg:max-w-xl mx-auto lg:py-12">
                                             <h1 className="block font-heading text-6xl sm:text-8xl md:text-10xl font-bold text-white">
                                                 MEET YOUR
                                             </h1>
@@ -329,7 +331,7 @@ export default function SectionOneWidget() {
                                                 PLAYMATE
                                             </h1>
 
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                 </div>
@@ -341,50 +343,13 @@ export default function SectionOneWidget() {
 
                                         <div className='group relative inline-block text-sm font-medium text-white focus:outline-none focus:ring'>
 
-                                            <span className="absolute inset-0 rounded-lg border-2 border-rose-600 group-active:border-red-500" />
 
                                             <Image
-                                                className="block mx-auto rounded-lg border border-rose-500 bg-rose-600 px-12 py-3 transition-transform  -translate-x-4  -translate-y-4"
-
-                                                width={300}
-                                                height={300}
-                                                src="/images/woman-side-header.png"
-                                                alt="Woman image"
-                                                style={{ width: "auto", height: "auto" }}
-                                                priority
-                                            />
-
-                                        </div>
-
-
-                                        <div className="absolute right-0 bottom-0 xl:-ml-40 max-w-md md:max-w-lg lg:max-w-xl mx-auto lg:py-12">
-                                            <h1 className="block font-heading text-6xl sm:text-8xl md:text-10xl font-bold text-white">
-                                                MEET YOUR
-                                            </h1>
-                                            <h1 className="sm:pl-6 lg:pl-16 text-left bg-clip-text bg-gradient-to-tl from-rose-500 via-emerald-500 to-cyan-500 text-transparent font-heading text-6xl sm:text-8xl md:text-10xl font-bold mb-6">
-                                                PLAYMATE
-                                            </h1>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className='text-center h-[50vh]'>
-                                    <div className="flex flex-col  mx-auto relative">
-
-                                        <div className='group relative inline-block text-sm font-medium text-white focus:outline-none focus:ring'>
-
-                                            <span className="absolute inset-0 rounded-lg border-2 border-rose-600 group-active:border-red-500" />
-
-                                            <Image
-                                                className="block mx-auto rounded-lg px-12 py-3 transition-transform  -translate-x-4  -translate-y-4"
+                                                className="block mx-auto rounded-lg px-12 py-3"
 
                                                 width={500}
                                                 height={500}
-                                                src="/images/woman-3.jpg"
+                                                src="/images/woman-4.jpeg"
                                                 alt="Woman image"
                                                 style={{ width: "auto", height: "auto" }}
                                                 priority
@@ -392,7 +357,42 @@ export default function SectionOneWidget() {
 
                                         </div>
 
+                                        {/* 
+                                        <div className="absolute right-0 bottom-0 xl:-ml-40 max-w-md md:max-w-lg lg:max-w-xl mx-auto lg:py-12">
+                                            <h1 className="block font-heading text-6xl sm:text-8xl md:text-10xl font-bold text-white">
+                                                MEET YOUR
+                                            </h1>
+                                            <h1 className="sm:pl-6 lg:pl-16 text-left bg-clip-text bg-gradient-to-tl from-rose-500 via-emerald-500 to-cyan-500 text-transparent font-heading text-6xl sm:text-8xl md:text-10xl font-bold mb-6">
+                                                PLAYMATE
+                                            </h1>
 
+                                        </div> */}
+                                    </div>
+
+                                </div>
+
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='text-center h-[50vh]'>
+                                    <div className="flex flex-col  mx-auto relative">
+
+                                        <div className='group relative inline-block text-sm font-medium text-white focus:outline-none focus:ring'>
+
+
+                                            <Image
+                                                className="block mx-auto rounded-lg px-12 py-3"
+
+                                                width={500}
+                                                height={500}
+                                                src="/images/woman-5.jpeg"
+                                                alt="Woman image"
+                                                style={{ width: "auto", height: "auto" }}
+                                                priority
+                                            />
+
+                                        </div>
+
+                                        {/* 
                                         <div className="absolute right-0 bottom-0 xl:-ml-40 max-w-md md:max-w-lg lg:max-w-xl mx-auto lg:py-12">
                                             <h1 className="block font-heading text-6xl sm:text-8xl md:text-10xl font-bold text-white">
                                                 MEET YOUR
@@ -401,7 +401,7 @@ export default function SectionOneWidget() {
                                                 FANTASY
                                             </h1>
 
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                 </div>
@@ -421,7 +421,7 @@ export default function SectionOneWidget() {
                             <div className="mb-4 px-6 py-8 bg-rose-500 dark:bg-xp-color rounded-xl">
                                 <div className="mb-6">
                                     <span className="text-sm text-white dark">Sign Up</span>
-                                    <h3 className="text-2xl font-bold">To be a member</h3>
+                                    <h3 className="text-2xl font-bold">To find a <span className='text-rose-500'>Playmate</span></h3>
                                 </div>
                                 <form action="">
                                     <div className="flex flex-wrap -mx-2">

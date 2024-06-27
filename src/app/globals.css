@@ -70,6 +70,62 @@ body {
   transform: scale(1.2);
   }
 
+
+  .bg {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bg-stage {
+    -webkit-animation: bg 60s linear infinite;
+    animation: bg 60s linear infinite;
+    width: 100%;
+}
+
+.bg-stage img {
+    display: block;
+    width: 100%;
+}
+
+@-webkit-keyframes bg {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes bg {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 575px) {
+    .bg-stage.lg {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .bg-stage.sm {
+        display: none;
+    }
+}
+
+
 /* 
 #water-ripple{
   background-image:-webkit-radial-gradient(center,rgba(225,29,72,0.5) 60%,rgba(0,0,0,1) 100%);

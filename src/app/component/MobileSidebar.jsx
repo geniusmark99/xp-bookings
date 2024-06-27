@@ -55,7 +55,8 @@ const MobileSidebar = () => {
                             <XPLogo className={` dark:fill-white fill-rose-500 w-[10rem]`} />
 
                             <li className='hover:text-rose-600 text-sm sm:text-base hover:bg-white text-white bg-rose-500 flex justify-around gap-x-2 rounded-md  py-2.5 px-2 w-full cursor-pointer shadow-lg hover:shadow-inner hover:shadow-rose-500/50'>
-                                Find a sexy lady
+                                Escorts
+
 
 
 
