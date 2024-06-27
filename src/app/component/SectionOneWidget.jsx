@@ -128,7 +128,7 @@ export default function SectionOneWidget() {
                         <li>
                             <a
                                 className={` ${isScrolled ? 'text-white dark:text-white hover:text-white before:bg-white' : 'text-rose-500 dark:text-gray-100 hover:text-rose-500 before:bg-rose-600'} 
-                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium
+                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium whitespace-nowrap
                                 `}
                                 href="#"
                             >
@@ -157,7 +157,7 @@ export default function SectionOneWidget() {
                                 href="#"
 
                                 className={` ${isScrolled ? 'text-white dark:text-white hover:text-white before:bg-white' : 'text-rose-500 dark:text-gray-100 hover:text-rose-500 before:bg-rose-600'} 
-                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium
+                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium whitespace-nowrap
                                 `}
                             >
                                 Find your match
@@ -184,7 +184,7 @@ export default function SectionOneWidget() {
                             <a
 
                                 className={` ${isScrolled ? 'text-white dark:text-white hover:text-white before:bg-white' : 'text-rose-500 dark:text-gray-100 hover:text-rose-500 before:bg-rose-600'} 
-                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium
+                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium whitespace-nowrap
                                 `}
                                 href="#"
                             >
@@ -213,7 +213,7 @@ export default function SectionOneWidget() {
                             <a
 
                                 className={` ${isScrolled ? 'text-white dark:text-white hover:text-white before:bg-white' : 'text-rose-500 dark:text-gray-100 hover:text-rose-500 before:bg-rose-600'} 
-                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium
+                                desktop-xp-link group flex items-center gap-x-1  text-sm   font-medium whitespace-nowrap
                                 `}
                                 href="#"
                             >
@@ -242,14 +242,14 @@ export default function SectionOneWidget() {
                     <div className="hidden lg:block">
                         <div className="inline-flex items-center gap-x-2">
 
-                            <a href="#" className={` ${isScrolled ? 'bg-white hover:bg-white text-rose-500' : 'hover:bg-rose-500 dark:bg-xp-color hover:text-white  bg-white dark:text-white'} py-2 px-3 border-2 border-rose-500 text-rose-500 
+                            <a href="#" className={`whitespace-nowrap  ${isScrolled ? 'bg-white hover:bg-white text-rose-500' : 'hover:bg-rose-500 dark:bg-xp-color hover:text-white  bg-white dark:text-white'} py-2 px-3 border-2 border-rose-500 text-rose-500 
                                rounded-full`}>
-                                <span className="text-sm font-bold">Sign in</span>
+                                <span className="text-xs lg:text-sm font-bold">Sign in</span>
                             </a>
 
-                            <a href="#" className={`${isScrolled ? 'border-white' : 'border-transparent'} border-2  py-2 px-3 bg-rose-500 transition-all hover:scale-95
+                            <a href="#" className={`whitespace-nowrap ${isScrolled ? 'border-white' : 'border-transparent'} border-2  py-2 px-3 bg-rose-500 transition-all hover:scale-95
                               rounded-full`}>
-                                <span className="text-sm font-bold">Be a member</span>
+                                <span className="text-xs lg:text-sm font-bold">Be a member</span>
                             </a>
 
                             <motion.button
