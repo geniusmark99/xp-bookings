@@ -63,8 +63,8 @@ export default function SectionOneWidget() {
 
 
     return (
-        <section className="pb-12 md:pb-24 lg:pb-32 bg-white dark:bg-xp-color">
-            <nav className={`${isScrolled ? 'bg-rose-500 border-white' : 'border-rose-500/50'} transition-colors duration-300 fixed w-full z-[2000] px-3 lg:px-16 py-4 border-b  shadow-sm shadow-rose-500/20`}>
+        <section className="pb-12 md:pb-24 lg:pb-32 bg-white dark:bg-xp-color gradient-overlay bg-cover bg-center">
+            <nav className={`${isScrolled ? 'bg-rose-500 border-white' : 'border-rose-500/50 bg-xp-color'}  transition-colors duration-300 fixed w-full z-[2000] px-3 lg:px-16 py-4 border-b  shadow-sm shadow-rose-500/20`}>
                 <div className="flex items-center">
                     <a className="inline-block text-lg font-bold" href="#">
                         <XPLogo className={`${isScrolled ? 'fill-white' : 'fill-rose-500'} w-[10rem]`} />
