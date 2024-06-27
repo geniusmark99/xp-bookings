@@ -67,7 +67,7 @@ export default function SectionThreeWidget() {
                                         width={200}
                                         height={200}
                                         style={{ width: "auto", height: "auto" }}
-                                        src="/images/woman-1.jpg"
+                                        src="/images/woman-8.jpg"
                                         alt="Beautiful Sexy women"
                                     />
                                 </div>
@@ -79,7 +79,7 @@ export default function SectionThreeWidget() {
                                         width={200}
                                         height={200}
                                         style={{ width: "auto", height: "auto" }}
-                                        src="/images/woman-2.jpg"
+                                        src="/images/woman-7.jpg"
                                         alt="Beautiful Sexy women"
                                     />
                                 </div>
@@ -89,7 +89,7 @@ export default function SectionThreeWidget() {
                                         width={200}
                                         height={200}
                                         style={{ width: "auto", height: "auto" }}
-                                        src="/images/woman-3.jpg"
+                                        src="/images/woman-6.jpg"
                                         alt="Beautiful Sexy women"
                                     />
                                 </div>

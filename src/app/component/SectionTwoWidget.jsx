@@ -4,21 +4,21 @@ import Image from "next/image";
 
 export default function SectionTwoWidget() {
     return (
-        <section className="relative pt-64 pb-40 bg-white dark:bg-xp-color overflow-hidden">
+        <section className="relative pt-15 md:pt-40 pb-40 bg-white dark:bg-xp-color overflow-hidden">
 
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center my-10'>
 
                 <div className='flex gap-x-2'>
 
                     <a
-                        className="inline-block rounded border border-rose-600 bg-rose-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500"
+                        className="inline-block text-sm md:text-base rounded border border-rose-600 bg-rose-600 px-6 cursor-pointer md:px-12 py-3 font-medium text-white hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500"
                     >
                         Be a member
                     </a>
 
 
                     <a
-                        className="inline-block rounded border border-rose-600 bg-rose-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500"
+                        className="inline-block text-sm md:text-base rounded border border-rose-600 bg-rose-600 px-6 cursor-pointer md:px-12 py-3 font-medium text-white hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500"
                     >
                         Be a playmate
                     </a>
@@ -46,7 +46,7 @@ export default function SectionTwoWidget() {
                 <div className="w-px h-16 bg-rose-300" />
                 <div className="w-px h-24 bg-rose-500" />
             </div> */}
-            <div className="container px-4 mx-auto">
+            <div className="container px-4 mx-auto text-xp-color dark:text-white">
                 <div className="flex items-center mb-18 justify-center ">
                     <span className="font-heading text-xl"></span>
                     {/* <div className="mx-4 rounded-full bg-gray-200 h-1 w-1" /> */}
@@ -54,7 +54,7 @@ export default function SectionTwoWidget() {
                 </div>
                 <div className="max-w-4xl mx-auto text-center mb-24 sm:mb-52">
                     <h2 className="font-heading text-5xl sm:text-6xl">
-                        Don&apos;t take our word for it. Trust our stats
+                        Don &apos; t take our word for it. Trust our stats
                     </h2>
                 </div>
                 <div className="flex flex-wrap -mx-4 3xl:-mx-20 mb-36">
